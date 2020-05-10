@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     axios
       .get(`http://api.icndb.com/jokes/random/1`)
-      .then(res => console.log(res.data.value))
+      // .then(res => console.log(res.data.value))
       .then(res => setChuckJoke(res.data.value))
       .catch(error => {
         console.log("error", error);
