@@ -1,0 +1,3 @@
+export default [
+    "https://vignette.wikia.nocookie.net/althistory/images/5/5c/Chuck_Norris.jpg/revision/latest?cb=20130706214324", "https://upload.wikimedia.org/wikipedia/commons/e/e1/Chuck_Norris_%281976%29.jpg", "https://cdn10.bigcommerce.com/s-o6vy9cv/products/85230/images/85280/190780__37473.1519229774.1280.1280.jpg?c=2", "https://m.media-amazon.com/images/M/MV5BZWI3N2RkODgtZmQyZC00NGZhLTk4YTAtMzRjYTI2ODdhNzIwXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_.jpg", "https://www.backkicks.com/wp-content/uploads/2012/04/chuck-norris-kick.jpg"
+]

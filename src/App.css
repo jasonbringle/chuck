@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.mainOne{
+  display:flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/ChuckDeltaForce.jpg);
+  background-size: cover;
+  background-position-y: -140px;
+}
+
+.jokeText{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items:center;
+  color: rgb(255, 0, 0);
+  width: 100%;
+}
