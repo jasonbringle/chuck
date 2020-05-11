@@ -16,9 +16,22 @@ function App() {
       });
   }, []);
 
+  const handleClick = () => {
+      axios
+        .get(`http://api.icndb.com/jokes/random/1`)
+        // .then(res => console.log(res.data.value))
+        .then(res => setChuckJoke(res.data.value))
+        .catch(error => {
+          console.log("error", error);
+        });
+  }
+
   return (
     <div className='mainOne'>
-    <Quotes chuckJoke={chuckJoke} />
+      <Quotes chuckJoke={chuckJoke} />
+      <div className='new-quote'>
+          <button onClick={handleClick} className="button">Chuck Quote</button>
+      </div>
     </div>
   );
 }
