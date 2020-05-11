@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`http://api.icndb.com/jokes/random/1`)
+      .get(`https://api.icndb.com/jokes/random/1`)
       // .then(res => console.log(res.data.value))
       .then(res => setChuckJoke(res.data.value))
       .catch(error => {
@@ -18,7 +18,7 @@ function App() {
 
   const handleClick = () => {
       axios
-        .get(`http://api.icndb.com/jokes/random/1`)
+        .get(`https://api.icndb.com/jokes/random/1`)
         // .then(res => console.log(res.data.value))
         .then(res => setChuckJoke(res.data.value))
         .catch(error => {
